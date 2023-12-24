@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "comfortaa", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  gap: 36px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 15px;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.main {
+  flex: 1 1 auto;
+}/*# sourceMappingURL=main.css.map */
