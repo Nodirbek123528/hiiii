@@ -1,0 +1,45 @@
+&-section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+    &-top{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        &-img1{
+            position: relative;
+        }
+        &-title{
+            position: absolute;
+            bottom: 30px;
+        }
+        &-subtitle{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            left: 15px;
+            bottom: 10px;
+            &left{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;             
+            }
+            &-right{
+                position: absolute;
+                right: -200px;
+                bottom: 0px;
+            }
+        }
+    }
+    &-bottom{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap:20px;
+    }
+}
