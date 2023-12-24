@@ -1,0 +1,50 @@
+&-section-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    &-title{
+        &-title{
+            color: #000;
+            font-size: 39px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            span{
+                color: #FF8541;
+            }
+            @include media (414){
+                span{
+                    color: #000;
+    
+                }
+            }
+            @include media (450){
+                font-size: 32px;
+            }
+        }
+    }
+    &-button{
+        position: relative;
+        &-button{
+            display: inline-flex;
+            padding: 18px 36px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--Black-2, #555351);
+            background-color: #FFF;
+            transition: all 0.3s ease-in-out;
+        }
+        &-button:hover{
+            border: none;
+            border-radius: 8px;
+            background: var(--Brown-2, #FF8541);
+            color: #FFF;
+        }
+    }
+    
+}

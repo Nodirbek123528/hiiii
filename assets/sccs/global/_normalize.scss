@@ -9,20 +9,7 @@
     font-weight: normal;
     line-height: normal;
 }
-.container {
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-    gap: 36px;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 40px;
-        @media screen and (max-width:500px) {
-            padding: 15px;
-            align-items: center;
-            display: flex;
-        }
+.container{
+    width: 1320px;
 }
-.main {
-    flex: 1 1 auto;
-}
+
